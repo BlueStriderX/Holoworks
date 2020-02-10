@@ -1,0 +1,16 @@
+Simple assembly language scripting module based on a Java state machine
+
+State machine architecture:
+	Instruction Set Architecture:
+	Registers:
+	Instructions:
+
+Implementation:
+	Execution steps:
+		1. load script from input
+		2. assemble temporary (or cached) binary
+		3. based on state machine settings, execute the assembled machine code
+	Sections:
+	State machine settings:
+
+Notes:
