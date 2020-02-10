@@ -4,6 +4,10 @@ State machine architecture:
 	Instruction Set Architecture:
 	Registers:
 	Instructions:
+		(memory)
+		(math)
+		(logic)
+		(IO)
 
 Implementation:
 	Execution steps:
@@ -14,3 +18,8 @@ Implementation:
 	State machine settings:
 
 Notes:
+	-only needs to handle logic IO
+	-needs only a few instructions to handle basic math, logic, and conditionals
+	-needs an instruction to handle the IO itself
+	-if using an 8 bit system, up to 256 logic connections can be used
+	-a single register can be used to hold the IO states of each possible connection
