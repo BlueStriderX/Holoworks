@@ -13,6 +13,6 @@ public class Holoworks extends StarMod {
     public void onEnable() {
         super.onEnable();
         this.modName = "Holoworks";
-        DebugFile.log("Enabled.", this);
+        DebugFile.log("Enabled", this);
     }
 }
