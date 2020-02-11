@@ -33,8 +33,21 @@ State machine architecture (custom RISC 16 bit):
 			-mov A, B - copies the contents of register A to B
 			-dat A    - copies the data from the next instruction address into register A and increments pc to skip the copied data
 		(math)
-			-add A, B - adds the contents of register A to B, outputs to acc
-			-add imm  - adds the immediate value to tmp, outputs to acc
+			-add A, B - adds the contents of register A to B
+			-add imm  - adds the immediate value to tmp
+			-sub A, B - subtracts register B from A
+			-sub imm  - subtracts imm from tmp
+			-mul A, B - multiples A with B
+			-mul imm  - multiples imm with tmp
+			-div A, B - divides A by B
+			-div imm  - divides tmp by imm
+			-and A, B - bitwise AND of A and B
+			-and imm  - bitwise AND of tmp and imm
+			-or  A, B - bitwise OR of A and B
+			-or  imm  - bitwise OR of imm and tmp
+			-not A    - bit wise NOT of A
+			-xor A, B - bitwise XOR of A and B
+			-xor imm  - bitwise XOR of imm and tmp
 		(control)
 			-tfl A, B - tests if a flag is true by comparing register A with B, outputs to flg. Replace "fl" with the flag condition to test. flg is automatically cleared when called
 			-jmp A    - sets pc to register A and sets the internal system jump variable to true. Enable this instruction's conditional mode to use for conditional branching
