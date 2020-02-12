@@ -1,4 +1,4 @@
-package emulator.core;
+package net.dovtech.holoworks.emulator.core;
 
 class Instance {
     public bool remove = false;

@@ -1,4 +1,4 @@
-package emulator.testConfiguration;
+package net.dovtech.emulator;
 
 //probably put this directly in the launcher class
 
