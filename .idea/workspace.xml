@@ -4,8 +4,6 @@
     <list default="true" id="118c5262-2ea4-429e-9ba6-86778882f65e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/dovtech/holoworks/blocks/DataStreamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/dovtech/holoworks/blocks/DataStreamer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/dovtech/holoworks/emulator/core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/dovtech/holoworks/emulator/core/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/dovtech/holoworks/emulator/core/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/dovtech/holoworks/emulator/core/UI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
