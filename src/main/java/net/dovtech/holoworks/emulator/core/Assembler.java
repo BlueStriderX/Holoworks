@@ -1,11 +1,9 @@
 package net.dovtech.holoworks.emulator.core;
 
 public class Assembler {
-    public int maxDataSize = 512; //must be set before calling assemble()
-
-    public byte[] assemble(String input) {
-        byte tmp[] = new byte[maxDataSize];
+    public byte[] assemble(String input, int maxDataSize) {
+        byte data[] = new byte[maxDataSize];
         
-        return tmp;
+        return data;
     }
 }
